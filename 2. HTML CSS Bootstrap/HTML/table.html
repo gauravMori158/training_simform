@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 100%;">
+        <colgroup>
+            <col span="1" style="background-color: aqua;">
+        </colgroup>
+        <tr>
+            <th>company</th>
+
+            <th>name</th>
+            <th>contact</th>
+        </tr>
+        <tr>
+            <td colspan="2">simform</td>
+
+            <td> 9090</td>
+        </tr>
+        <tr>
+            <td>simform</td>
+            <td> Mori1</td>
+            <td> 90903</td>
+        </tr>
+        <tr>
+            <td>simform</td>
+            <td rowspan="3">mori1213</td>
+            <td> 909021</td>
+        </tr>
+        <tr>
+            <td>simform</td>
+            <td> 89</td>
+
+        </tr>
+        <tr>
+            <td>simform</td>
+
+            <td>90901</td>
+        </tr>
+    </table>
+</body>
+
+</html>
