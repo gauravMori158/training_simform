@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<style>
+    form {
+        background-color: lightgray;
+        display: inline-block;
+        padding: 20px;
+        border: 2px solid black;
+        width: auto;
+        position: relative;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 12px 10px;
+        box-sizing: border-box;
+        margin: 10px;
+    }
+    
+    input[type="text"]:focus {
+        background-color: lightgoldenrodyellow;
+    }
+</style>
+
+<body>
+    <form action="#">
+
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First Name "><br>
+        <label for="lname">Last Name</label>
+        <br><input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
