@@ -5,6 +5,7 @@
      flex-wrap: wrap;
      column-gap: 10px;
      align-items: center;
+     gap: 20px;
  }
  
  .logo {
@@ -20,7 +21,7 @@
  }
  
  form.search1 input[type=text] {
-     width: 300px;
+     width: 350px;
      padding: 10px;
      font-size: small;
      border: none;
@@ -58,3 +59,51 @@
      height: 30px;
      width: 120px;
  }
+ .button-2{
+    background-color:transparent;
+    border: none;
+    color:white;
+    font-weight: bold;
+ }
+ .dropbtn {
+    
+    background-color: transparent;
+    color: white !important;
+    font-weight: bold;
+     
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+     
+     
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+  i{
+    margin-right: 10px;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+ 
