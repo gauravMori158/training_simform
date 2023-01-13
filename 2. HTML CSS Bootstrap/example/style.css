@@ -1,0 +1,60 @@
+ .flex-container,
+ .navbar {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     column-gap: 10px;
+     align-items: center;
+ }
+ 
+ .logo {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .underline:hover {
+     text-decoration: underline white;
+ }
+ 
+ form.search1 input[type=text] {
+     width: 300px;
+     padding: 10px;
+     font-size: small;
+     border: none;
+     float: left;
+     background: #ffffff;
+ }
+ 
+ form.search1 button {
+     padding: 10px;
+     float: right;
+     background: #ffffff;
+     color: rgb(0, 98, 255);
+     font-size: small;
+     border: none;
+     cursor: pointer;
+ }
+ 
+ .button-1 {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items: center;
+     background-color: #ffffff;
+     border: none;
+     color: rgb(2, 69, 255);
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     padding: 10px 24px;
+     font-weight: bold;
+     height: 30px;
+     width: 120px;
+ }
