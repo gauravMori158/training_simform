@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Value : </p>
+    <p id="demo"></p>
+    <script>
+        var x = 10;
+        var y = 3;
+        var z = x + y;
+        document.getElementById('demo').innerHTML = "Value Of x + y is : " + z;
+    </script>
+
+    <p>variable :</p><span id="var"></span>
+    <script>
+        var name = "Gaurav",
+            id = "19CE",
+            roll = 86;
+        var roll;
+        document.getElementById("var").innerHTML = "Name :" + name + " Id :" + id + " Roll No." + roll;
+    </script>
+    <script>
+        var val = 8;
+        var v1 = val >> 2
+        document.getElementById("var").innerHTML = v1;
+    </script>
+    <script>
+        const obj = {
+            f_name: 'Mori',
+            L_name: 'G',
+            age: 30
+        };
+        document.getElementById("var").innerHTML = "Name : " + obj.f_name + " Lname " + obj.L_name + " age " + obj.age;
+    </script>
+</body>
+
+</html>
