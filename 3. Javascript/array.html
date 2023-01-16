@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>array :<span id="a1"></span></p>
+    <p>array sorted :<span id="a2"></span></p>
+    <p>array mapped :<span id="a3"></span></p>
+    <p>Reduce :<span id="a4"></span></p>
+    <script>
+        //   const abc = ['gdfg', 'bdfg', 'waqtc', 'dt34w', 'wee'];
+        const abc = [12, 1343, 1, 32, 5, 62];
+        document.getElementById('a1').innerHTML = abc;
+
+        document.getElementById('a2').innerHTML = abc.sort(function(a, b) {
+            return a - b
+        });
+        const arr1 = abc.map(myfun);
+        document.getElementById('a3').innerHTML = arr1;
+
+        function myfun(value, index, array) {
+            return value * 2;
+        }
+
+
+        let sum = abc.reduce(myfun1);
+        document.getElementById('a4').innerHTML = sum;
+
+        function myfun1(sum, value, index, array) {
+            return value + sum;
+        }
+    </script>
+</body>
+
+</html>

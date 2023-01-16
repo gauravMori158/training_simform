@@ -11,11 +11,30 @@
 <body>
     <button class="btn btn-primary" onclick="clickme()">Click Me</button>
     <p>Count :
-        <p id="click"></p>
+        <p id="click">0</p>
+        <p id="click1">0</p>
     </p>
     <script>
-        const add
-        document.getElementById('click').innerHTML = add();
+        const add = (function() {
+            let count = 0;
+            return function() {
+                count += 1;
+                return count;
+            }
+        })();
+
+        function clickme() {
+            document.getElementById('click').innerHTML = add();
+        }
+
+        const abc = ['a', 'b', 'c', 'd', 'e'];
+        let text = "<ul>";
+        for (let i = 0; i < abc.length; i++) {
+            text += "<li>" + abc[i] + "</li>";
+
+        }
+        text += "</ul>"
+        document.getElementById('click1').innerHTML = text;
     </script>
 </body>
 
