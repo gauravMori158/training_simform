@@ -59,105 +59,111 @@ form.search1 button {
     height: 30px;
     width: 120px;
 }
-.button-2{
-   background-color:transparent;
-   border: none;
-   color:white;
-   font-weight: bold;
+
+.button-2 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
+
 .dropbtn {
-   
-   background-color: transparent;
-   color: white !important;
- 
-    
-   border: none;
- }
- 
- .dropdown {
-   position: relative;
-   display: inline-block;
-   background-color: transparent;
- }
- 
- .dropdown-content {
-   display: none;
-   position: absolute;
-   
+    background-color: transparent;
+    color: white !important;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
     text-decoration: none;
-    
-   z-index: 1;
- }
- 
- .dropdown-content a {
-   box-sizing: border-box;
-   color: rgb(0, 0, 0);
-   background-color: white;
-   width: 200px;
-   padding: 10px;
-   text-decoration: none;
-   display: block;
-   font-size: 15px;
- }
- i{
-   margin-right: 10px;
- }
- .dropdown-content a:hover {background-color: #ddd;}
- 
- .dropdown:hover .dropdown-content {display: block;}
-  
- 
-  .second{
+    z-index: 1;
+}
+
+.dropdown-content a {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.second {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-     
-    
     box-sizing: border-box;
-     margin-right: 20PX;
-     margin-top :15px;
-     font-size: 13px;
-      
-     
-  }
- .second a{
-  color: black;
- }
- .second a:hover, .second img:hover{
-  color: rgb(0, 102, 255);
- }
-   a:link {  text-decoration: none;
-  font-family:   Arial, sans-serif; color: black;}
+    margin-right: 20PX;
+    margin-top: 15px;
+    font-size: 13px;
+}
 
-   .second img{
+.second a {
+    color: black;
+}
+
+.second a:hover,
+.second img:hover {
+    color: rgb(0, 102, 255);
+}
+
+a:link {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.second img {
     height: 64px;
     width: 64px;
-   }
-   div.gallery {
-   
+}
+
+div.gallery {
     padding: 5px;
     float: left;
     width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid rgb(231, 231, 231);
-  }
-  
-  div.gallery img {
+}
+
+div.gallery:hover {
+    transition: all 0.2 ease;
+    transform: scale(1.025);
+}
+
+div.gallery img {
     width: 100%;
     height: auto;
-  }
-  
-  div.desc {
-     
+}
+
+div.desc {
     text-align: center;
-  }
-  #thirdF{
+}
+
+#thirdF {
     display: flex;
-    color:rgb(78, 78, 78);
+    color: rgb(78, 78, 78);
     justify-content: flex-start;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(203, 203, 203);
@@ -165,26 +171,27 @@ form.search1 button {
     padding: 20px;
     margin-left: 40px;
     margin-right: 40px;
-  }
-   #thirds {
+}
+
+#thirds {
     display: flex;
-    color:rgb(78, 78, 78);
+    color: rgb(78, 78, 78);
     justify-content: flex-start;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(203, 203, 203);
-     
     padding: 20px;
     margin-left: 40px;
     margin-right: 40px;
-   }
-   #thirds img{
-    height:116.1px;
-    width: 170px;
-   }
+}
 
-   #music{
+#thirds img {
+    height: 116.1px;
+    width: 170px;
+}
+
+#music {
     display: flex;
-    color:rgb(78, 78, 78);
+    color: rgb(78, 78, 78);
     margin-left: 40px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(203, 203, 203);
@@ -194,4 +201,4 @@ form.search1 button {
     margin-right: 40px;
     gap: 5px;
     justify-content: flex-start;
-   }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condition</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        let greet = "Good Day !";
+        const hour = new Date().getHours();
+        if (hour > 18) {
+            hour = "Good Evening !";
+        }
+        document.getElementById('demo').innerHTML = greet;
+
+
+        switch (new Date().getDay()) {
+            case 0:
+                greet = "Today is Monday";
+                break;
+            case 1:
+                greet = "Today is Sunday";
+                break;
+            default:
+                greet = "Looking forward to the Weekend";
+        }
+        document.getElementById('demo1').innerHTML = greet;
+    </script>
+</body>
+
+</html>
