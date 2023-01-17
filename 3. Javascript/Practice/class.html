@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+</head>
+
+<body>
+    <p is="class"></p>
+    <script>
+        class Car {
+            constructor(name, year) {
+                this.name = name;
+                this.year = year;
+            }
+            age(x) {
+                return x - this.year;
+            }
+
+
+        }
+
+        let dt = new Date().getFullYear();
+        let ob1 = new Car("audi", 2012);
+        document.getElementById('class').innerHTML = `your ${ob1.name} is  ${ob1.age(dt)} old`;
+    </script>
+</body>
+
+</html>

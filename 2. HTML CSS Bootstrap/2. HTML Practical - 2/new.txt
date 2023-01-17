@@ -1,0 +1,133 @@
+<div class="flex-container" id="third" style="flex-direction: row;justify-content: center  ; ">
+
+                    <div>
+                        <div class="container">
+                            <img src="/img/des.jpg" alt="design" style="width: 302px;height: 200px;">
+                            <div class="content" style="width: 302px;">
+                                <label for="designing" style="padding:10px">Designing</label>
+
+                            </div>
+
+                        </div>
+                        <p style=" justify-content: center;display: block; ">
+                            A Service Description plays an important role in enabling access to a service. A Service Description plays an important role in enabling access to a service.
+                        </p>
+                    </div>
+                    <div class="container">
+                        <img src="/img/dev.jpg" alt="design" style="width: 302px;height: 200px;">
+                        <div class="content" style="width: 302px;">
+                            <label for="designing" style="padding:10px">Development</label>
+
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="/img/qa.jpg" alt="design" style="width: 302px;height: 200px;">
+                        <div class="content" style="width: 302px;">
+                            <label for="designing" style="padding:10px">Quality</label>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                 #cons {
+     background-color: rgb(255, 255, 255);
+     margin-right: 10px;
+ }
+ 
+ #cons1 img {
+     width: 200px;
+     height: 150px;
+ }
+ 
+ .container {
+     position: relative;
+ }
+ 
+ .container .content {
+     position: absolute;
+     bottom: 0;
+     background: rgb(0, 0, 0);
+     background: rgba(0, 0, 0, 0.5);
+     color: #000000;
+     font-weight: bold;
+     width: 100%;
+ }
+
+
+
+
+
+
+
+
+
+ <label for="service" style="font-size:xx-large;margin-bottom: 30px;">   <b>OUR PROCESS </b></label>
+            <p id='service' style=" justify-content: center;display: block;">
+                A Service Description plays an important role in enabling access to a service. Most service description languages are designed for machine consumption, allowing for the automatic creation of code skeletons, easier search, and classification of services.
+            </p>
+            <div class="flex-container" style="flex-direction: row;justify-content: center  ; ">
+                <div class="flex-container" id="cons" style="flex-direction: column;justify-content: center;align-items: center;">
+                    <img src="/img/des.jpg" alt="Design">
+                    <label for="service" style="font-size:x-large;margin-bottom: 10px;">   <b>Designing</b></label>
+                    <p style="max-width: 200px;font-size: small;text-align: center;">Consultants offer advice and expertise to client organisations to help them improve their business. </p>
+                </div>
+                <div class="flex-container" id="cons" style="flex-direction: column;justify-content: center;align-items: center;">
+                    <img src="/img/dev.jpg" alt="dev">
+                    <label for="service" style="font-size:x-large;margin-bottom: 10px;">   <b>Development</b></label>
+                    <p style="max-width: 200px;font-size: small;text-align: center;">Finance, of financing, is the process of raising funds or capital for any kind of expenditure.</p>
+                </div>
+                <div class="flex-container" id="cons" style="flex-direction: column;justify-content: center;align-items: center;">
+                    <img src="/img/qa.jpg" alt="qa">
+                    <label for="service" style="font-size:x-large;margin-bottom: 10px;">   <b>Quality</b></label>
+                    <p style="max-width: 200px;font-size: small;text-align: center;">
+                        Development is a process that creates growth, brings in progress and positive change</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <div class="flex-container ">
+                <label for="service" style="font-size:xx-large;margin-bottom: 30px;">   <b>OUR PROCESS </b></label>
+                <p id='service' style=" justify-content: center;display: block;">
+                    A Service Description plays an important role in enabling access to a service. Most service description languages are designed for machine consumption, allowing for the automatic creation of code skeletons, easier search, and classification of services.
+                </p>
+                <div class="flex-container" style="flex-direction: row;justify-content: center  ; ">
+                    <div class="flex-container" id="cons" style="flex-direction: column;justify-content: center;align-items: center;">
+                        <img src="/img/des.jpg" alt="Design">
+                        <label for="service" style="font-size:x-large;margin-bottom: 10px;">   <b>Designing</b></label>
+                        <p style="max-width: 200px;font-size: small;text-align: center;">Consultants offer advice and expertise to client organisations to help them improve their business. </p>
+                    </div>
+                    <div class="flex-container" id="cons" style="flex-direction: column;justify-content: center;align-items: center;">
+                        <img src="/img/dev.jpg" alt="dev">
+                        <label for="service" style="font-size:x-large;margin-bottom: 10px;">   <b>Development</b></label>
+                        <p style="max-width: 200px;font-size: small;text-align: center;">Finance, of financing, is the process of raising funds or capital for any kind of expenditure.</p>
+                    </div>
+                    <div class="flex-container" id="cons" style="flex-direction: column;justify-content: center;align-items: center;">
+                        <img src="/img/qa.jpg" alt="qa">
+                        <label for="service" style="font-size:x-large;margin-bottom: 10px;">   <b>Quality</b></label>
+                        <p style="max-width: 200px;font-size: small;text-align: center;">
+                            Development is a process that creates growth, brings in progress and positive change</p>
+                    </div>
+                </div>
+            </div>
