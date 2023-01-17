@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Catch</title>
+</head>
+
+<body>
+    <input type="text" id="text1">
+    <button type="button" onclick="fun()" value="Submit">submit</button>
+    <p id="try"></p>
+
+    <script>
+        const msg = document.getElementById('try');
+        msg.innerHTML = "";
+
+        function fun() {
+            try {
+                let x = document.getElementById('text1').value;
+                if (isNaN(x)) throw "NAN";
+                if (x.trim() == "") throw "empty";
+                x = Number(x);
+                if (x < 5) throw "low";
+                else if (x > 10) throw "high";
+
+
+
+            } catch (err) {
+                msg.innerHTML = err;
+            }
+        }
+    </script>
+</body>
+
+</html>
