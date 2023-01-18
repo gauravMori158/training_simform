@@ -8,11 +8,8 @@
     <title>Website</title>
     <link rel="icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="/style1.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -20,25 +17,34 @@
 
 <body>
     <div class="main">
-        
+
         <nav class="navbar1">
             <div><img src="/img/logo.jpg" alt="logoImage Navbar"></div>
 
             <div class="nav1" style="display: flex;align-items:center;text-align:center">
                 <div id="othernav"><a href="#"><label   for="home">Home</label></a></div>
-                <div id="othernav"><a href="#"> <label  for="home">Feed</label></a></div>
+                <div id="othernav">
+                    <a href="#"> <label for="home">Feed</label></a>
+                </div>
                 <div class="dropdown">
                     <button class="dropbtn">About us 
                       <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                    </div>    </div> 
-                <div id="othernav"><a href="#"> <label   for="home">Gallary</label></a></div>
-                <div id="othernav"><a href="#"> <label   for="home">Contect</label></a></div>
-                <div id="othernav"><a href="#"> <label   for="home">News</label></a></div>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div id="othernav">
+                    <a href="#"> <label for="home">Gallary</label></a>
+                </div>
+                <div id="othernav">
+                    <a href="#"> <label for="home">Contect</label></a>
+                </div>
+                <div id="othernav">
+                    <a href="#"> <label for="home">News</label></a>
+                </div>
             </div>
         </nav>
 
@@ -54,30 +60,27 @@
         <div class="flex-container" style="display: flex;flex-direction:column;margin-top: 50px;">
             <label for="service" style="font-size:xx-large;margin-bottom: 30px;"> <b>OUR SERVICES </b></label>
             <p id='service' style=" justify-content: center;display: block;">
-                A Service Description plays an important role in enabling access to a service. Most service description
-                languages are designed for machine consumption, allowing for the automatic creation of code skeletons,
-                easier search, and classification of services.
+                A Service Description plays an important role in enabling access to a service. Most service description languages are designed for machine consumption, allowing for the automatic creation of code skeletons, easier search, and classification of services.
             </p>
             <div style="display: flex;flex-direction:row;margin-top:50px;column-gap:20px">
                 <div id="cont">
 
                     <i class="fa fa-user" style="color:rgb(170, 230, 152);font-size:40px;"></i>
-                    <label for="service" style="font-size:x-large;margin-bottom: 10px;"> <b>Consulting</b></label>
-                    <p style="max-width: 200px;font-size: small;text-align: center;">Consultants offer advice and
-                        expertise
-                        to client organisations to help them improve their business. </p>
+                    <label for="service" style="font-size:x-large;margin-bottom: 1px;"> <b>Consulting</b></label>
+                    <label id="bar_bottom"></label>
+                    <p style="max-width: 200px;font-size: small;text-align: center;">Consultants offer advice and expertise to client organisations to help them improve their business. </p>
 
                 </div>
                 <div id="cont">
                     <i class="fa fa-shopping-bag" style="color:rgb(170, 230, 152);font-size:40px;"></i>
-                    <label for="service" style="font-size:x-large;margin-bottom: 10px;"> <b>Finance</b></label>
-                    <p style="max-width: 200px;font-size: small;text-align: center;">Finance, of financing, is the
-                        process
-                        of raising funds or capital for any kind of expenditure.</p>
+                    <label for="service" style="font-size:x-large;margin-bottom: 1px;"> <b>Finance</b></label>
+                    <label id="bar_bottom"></label>
+                    <p style="max-width: 200px;font-size: small;text-align: center;">Finance, of financing, is the process of raising funds or capital for any kind of expenditure.</p>
                 </div>
                 <div id="cont">
                     <i class="fa fa-desktop" style="color:rgb(170, 230, 152);font-size:40px;"></i>
-                    <label for="service" style="font-size:x-large;margin-bottom: 10px;"> <b>Development</b></label>
+                    <label for="service" style="font-size:x-large;margin-bottom: 1px;"> <b>Development</b></label>
+                    <label id="bar_bottom"></label>
                     <p style="max-width: 200px;font-size: small;text-align: center;">
                         Development is a process that creates growth, brings in progress and positive change</p>
                 </div>
@@ -87,38 +90,33 @@
         <div class="flex-container" id="last" style="display: flex;flex-direction:column;justify-content:space-between;margin-top: 10px;">
             <label for="service" style="font-size:xx-large;margin-bottom: 30px;"> <b>OUR PROCESS </b></label>
             <p id='service1' style=" justify-content: center;display: block;">
-                Process descriptions are precise portrayals of events occurring over time that lead to some outcome.They
-                describe. The steps in the operation of a mechanism. The steps in a conceptual process.
+                Process descriptions are precise portrayals of events occurring over time that lead to some outcome.They describe. The steps in the operation of a mechanism. The steps in a conceptual process.
             </p>
             <div style="display: flex;flex-direction:row;margin-top:30px;column-gap:20px">
-                
+
                 <div id="cont2">
                     <div class="container1">
                         <img src="/img/des.jpg" alt="Design">
                         <div class="content1">
                             <label for="service" style="font-size:20px; "> <b>Designing</b></label>
-                            
+
                         </div>
-                        
+
                     </div>
-                    <p id="pof" >
-                        Finance, of financing, is the
-                        process of raising funds or capital for any kind of expenditure. Finance, of financing, is the
-                        process of raising funds or capital for any kind of expenditure.</p>
+                    <p id="pof">
+                        Finance, of financing, is the process of raising funds or capital for any kind of expenditure. Finance, of financing, is the process of raising funds or capital for any kind of expenditure.</p>
                 </div>
                 <div id="cont2">
                     <div class="container1">
                         <img src="/img/dev.jpg" alt="dev">
                         <div class="content1">
                             <label for="service" style="font-size:20px; "> <b>Development</b></label>
-                            
+
                         </div>
-                        
+
                     </div>
-                    <p id="pof" >
-                        Finance, of financing, is the
-                        process of raising funds or capital for any kind of expenditure. Finance, of financing, is the
-                        process of raising funds or capital for any kind of expenditure.</p>
+                    <p id="pof">
+                        Finance, of financing, is the process of raising funds or capital for any kind of expenditure. Finance, of financing, is the process of raising funds or capital for any kind of expenditure.</p>
                 </div>
 
                 <div id="cont2">
@@ -126,14 +124,12 @@
                         <img src="/img/qa.jpg" alt="qa">
                         <div class="content1">
                             <label for="service" style="font-size:20px; "> <b>Quality</b></label>
-                            
+
                         </div>
-                        
+
                     </div>
-                    <p id="pof" >
-                        Finance, of financing, is the
-                        process of raising funds or capital for any kind of expenditure. Finance, of financing, is the
-                        process of raising funds or capital for any kind of expenditure.</p>
+                    <p id="pof">
+                        Finance, of financing, is the process of raising funds or capital for any kind of expenditure. Finance, of financing, is the process of raising funds or capital for any kind of expenditure.</p>
                 </div>
 
 
