@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        class Car {
+            constructor(name) {
+                this.fname = name;
+
+            }
+            get nameo() {
+                return this.fname;
+            }
+            set nameo(x) {
+                this.fname = x;
+            }
+
+        }
+
+
+        let car = new Car("volvo");
+        let dis = document.getElementById('demo');
+        dis.innerHTML = `My ${car.nameo}  `;
+        dis = document.getElementById('demo1');
+        car.nameo = "Audi";
+        dis.innerHTML = `My ${car.nameo}  `;
+    </script>
+</body>
+
+</html>
