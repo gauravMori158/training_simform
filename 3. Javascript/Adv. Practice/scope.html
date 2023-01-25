@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // function foo() {
+        //     var bar = "bar1";
+        //     this.baz = baz;
+        //     this.baz();
+        // }
+
+        // function baz() {
+        //     console.log(this.bar);
+        // }
+        // var bar = "bar2";
+        // foo();
+        // function bind(fun, o) {
+        //     return function() {
+        //         fun.call(o);
+        //     }
+        // }
+
+        // function foo() {
+        //     console.log(this.bar);
+        // }
+
+        // var obj = {
+        //     bar: "bar2"
+        // };
+        // var obj2 = {
+        //     bar: "bar23"
+        // };
+        // var origin = foo;
+        // foo = function() {
+        //     origin.call(obj);
+        // }
+        // foo = bind(foo, obj);
+        // foo();
+        // foo = bind(foo, obj2);
+        // foo.call(obj2);
+        // function foo() {
+        //     this.baz = "baz";
+        //     console.log(bar + " " + baz);
+        // }
+        // var bar = "bar1";
+        // var baz = foo();
+
+        for (var i = 1; i <= 5; i++) {
+            (function(i) {
+                setTimeout(function() {
+                    console.log("i :" + i);
+                }, i * 1000);
+            })(i);
+        }
+    </script>
+</body>
+
+</html>
