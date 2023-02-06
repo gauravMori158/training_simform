@@ -1,3 +1,4 @@
+"use strict";
 function getName(id, name, email) {
     console.log(id, " ", name);
     if (email != undefined)

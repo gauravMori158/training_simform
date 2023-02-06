@@ -1,4 +1,5 @@
-var Student = {
+"use strict";
+let Student = {
     name: "Mori",
     age: 21,
     branch: 'CE'
